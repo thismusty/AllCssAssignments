@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huckleberry</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #666666;
+            color: #000;
+            min-height: 100vh;
+            padding: 5% 10%;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .header-section {
+            background: white;
+            padding: 40px;
+            margin-bottom: 40px;
+            border: 2px solid #ffbb00;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .highlight-green {
+            color: #00b341;
+            font-weight: 500;
+        }
+
+        .secondary-text {
+            font-size: 1.5rem;
+        }
+
+        .content-box {
+            background: white;
+            padding: 40px;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .yellow-header {
+            background: #ffbb00;
+            padding: 20px 40px;
+            position: absolute;
+            top: 0;
+            left: -20px;
+            box-shadow: 
+                2px 2px 4px rgba(0, 0, 0, 0.2),
+                4px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .yellow-header h2 {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .content-text {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            line-height: 1.5;
+            margin-top: 80px;
+        }
+
+        .content-text:last-child {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 5%;
+            }
+
+            .header-section {
+                padding: 20px;
+            }
+
+            .content-box {
+                padding: 20px;
+                width: 100%;
+            }
+
+            .yellow-header {
+                padding: 15px 20px;
+                left: -10px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .tagline,
+            .secondary-text {
+                font-size: 1.25rem;
+            }
+
+            .content-text {
+                font-size: 1.1rem;
+                margin-top: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-section">
+            <h1>Huckleberry</h1>
+            <p class="tagline">
+                An avant-garde agency focused on connecting 
+                <span class="highlight-green">passion</span> with 
+                <span class="highlight-green">logistics</span>.
+            </p>
+            <p class="secondary-text">
+                A better way to solve the problems of tomorrow.
+            </p>
+        </div>
+
+        <div class="content-box">
+            <div class="yellow-header">
+                <h2>Wealth comes from operations</h2>
+            </div>
+            <p class="content-text">
+                No modern business can thrive without developing a specialization in operations. 
+                Huckleberry has helped dozens of companies, from Fortune 50 monoliths to fast-growing 
+                Bay Area startups, achieve their goals and meet their KPIs by leveraging our 
+                extensive network of logistics experts.
+            </p>
+            <p class="content-text">
+                Huckleberry was established in 2003 to help ambitious businesses discover their true 
+                potential. If that resonates, let's chat!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
